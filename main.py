@@ -17,3 +17,5 @@ while True:
     else:
         print("Выбрана неверная операция, попробуйте снова")
         continue
+
+    print(f"{a} {op} {b} = {rez}")
