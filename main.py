@@ -8,11 +8,11 @@ while True:
 
     if op == operations[0]:
         rez = a + b
-    elif op == operations[0]:
+    elif op == operations[1]:
         rez = a - b
-    elif op == operations[0]:
+    elif op == operations[2]:
         rez = a / b
-    elif op == operations[0]:
+    elif op == operations[3]:
         rez = a * b
     else:
         print("Выбрана неверная операция, попробуйте снова")
